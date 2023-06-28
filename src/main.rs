@@ -4,4 +4,4 @@ fn main() {
     let mut blockchain = models::blockchain::Blockchain::new(difficulty);
 
     models::blockchain::Blockchain::add_block(&mut blockchain);
-}
+} 

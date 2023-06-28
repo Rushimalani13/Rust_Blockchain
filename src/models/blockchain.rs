@@ -38,7 +38,7 @@ impl Blockchain {
 
         blockchain
     }
-
+ 
     pub fn add_block(&mut self) {
         let mut new_block = Block::new(
             self.chain.len() as u64,
